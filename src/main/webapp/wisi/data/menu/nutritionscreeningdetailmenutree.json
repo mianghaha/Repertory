@@ -1,0 +1,34 @@
+﻿{
+    listroot:[
+		{menuid:'1_1', text : '患者信息',menuUrl:'',icon:'',leaf:false,expanded:true,listroot:[
+			{menuid:'1_1', text : '基本信息',menuUrl:'patient.BasicInformation',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_2', text : '医嘱一览',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]},
+		{menuid:'1_1', text : '营养筛查',menuUrl:'',icon:'',leaf:false,expanded:true,listroot:[
+			{menuid:'1_3', text : '调查问卷',menuUrl:'patient.Questionnaire',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_4', text : '营养访谈记录',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]},
+		{menuid:'1_1', text : '每日查房',menuUrl:'',icon:'',leaf:false,expanded:true,listroot:[
+			{menuid:'1_5', text : '查房记录',menuUrl:'daily.CheckingRecord',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_6', text : '病程记录',menuUrl:'daily.CourseRecord',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_7', text : '膳食记录',menuUrl:'patient.DietaryRecords',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]},
+		{menuid:'1_1', text : '营养评估',menuUrl:'',icon:'',leaf:false,expanded:true,listroot:[
+			{menuid:'1_8', text : '病史调查记录',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_9', text : '人体成分分析报告',menuUrl:'assessment.BodyComposition',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_10', text : '体格检查数据',menuUrl:'assessment.PhysicalExaminationRec',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_11', text : '实验室指标',menuUrl:'assessment.LaboratoryIndicators',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_12', text : '提请会诊',menuUrl:'assessment.Consultation',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]},
+		{menuid:'1_1', text : '营养诊断',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:false,expanded:true,listroot:[
+			{menuid:'1_13', text : '摄入量计算',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]},
+		{menuid:'1_1', text : '营养医嘱',menuUrl:'',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:false,expanded:true,listroot:[
+			{menuid:'1_14', text : '治疗方案',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true},
+			{menuid:'1_15', text : '生成医嘱',menuUrl:'error.404',icon:'wisi/resource/images/main/infrastructureitEquipment.png',leaf:true}
+		]}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

@@ -1,0 +1,30 @@
+.body{
+	font-family:"Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+	font-size:14px;
+	background:#f4f4f4 url(../images/bg.png) repeat top left;
+	color:#333;
+	text-shadow:1px 1px 1px #fff;
+}
+.x-btn-menu-custom-small {
+	border-color: #126daf;
+}
+.x-btn-menu-custom-small {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: url(../images/button_hover.png) no-repeat;
+	padding: 3px 3px 3px 3px;
+}
+
+.x-btn-menu-custom-small-focus {
+	background:url(../images/button_default.png) no-repeat;
+}
+.x-btn-menu-custom-small-over {
+	background: url(../images/button_default.png) no-repeat;
+}
+.x-btn-menu-custom-small-menu-active,
+.x-btn-menu-custom-small-pressed {
+	background: url(../images/button_default.png) no-repeat;
+}

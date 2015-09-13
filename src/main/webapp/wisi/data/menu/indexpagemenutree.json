@@ -1,0 +1,8 @@
+﻿{
+    listroot:[
+		{id:'1', text : '首页',menuUrl:'home.HomePage',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

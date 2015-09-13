@@ -1,0 +1,13 @@
+{
+    "success":true,
+    "gridData": [
+        {userName: '张三', userId: '150501', userDep: '解决方案事业部', userJob: '项目经理', userInDate: '2014-05-01', userSex: '男', userAge: '30', userRemark: ''},
+		{userName: '李四', userId: '150502', userDep: '解决方案事业部', userJob: '项目经理', userInDate: '2014-05-01', userSex: '男', userAge: '28', userRemark: ''},
+		{userName: '王二', userId: '150503', userDep: '解决方案事业部', userJob: '项目经理', userInDate: '2014-05-01', userSex: '男', userAge: '32', userRemark: ''},
+		{userName: '麻五', userId: '150504', userDep: '解决方案事业部', userJob: '项目经理', userInDate: '2014-05-01', userSex: '男', userAge: '30', userRemark: ''},
+		{userName: '刘六', userId: '150505', userDep: '解决方案事业部', userJob: '项目经理', userInDate: '2014-05-01', userSex: '男', userAge: '29', userRemark: ''}
+    ],
+	metaData: {
+        root: 'gridData'
+    }
+}

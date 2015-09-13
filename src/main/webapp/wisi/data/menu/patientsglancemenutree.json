@@ -1,0 +1,19 @@
+﻿{
+    listroot:[
+		{id:'0', text : 'ExtJs4.2学习',pageName:'testPage_0',menuUrl:'chart.DynamicChart',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:false,
+			listroot:[
+				{id:'0_1', text : '动态图表',pageName:'testPage_01',menuUrl:'chart.DynamicChart',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+				{id:'0_2', text : '本地数据缓存',pageName:'testPage_02',menuUrl:'localStorage.LocalStorage',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true}
+			]
+		},
+		{id:'1', text : '动态显示列',pageName:'testPage_1',menuUrl:'dynamicColumn.DynamicColumn',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'2', text : '营养评估评估',pageName:'testPage_2',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'3', text : '营养诊断营养诊断',pageName:'testPage_3',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'4', text : '营养医嘱',pageName:'testPage_4',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'5', text : '实验室数据比较',pageName:'testPage_5',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'6', text : 'Panel样式测试',pageName:'testPage_6',menuUrl:'panel.PanelBorderColor',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

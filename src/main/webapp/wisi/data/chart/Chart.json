@@ -1,0 +1,8 @@
+{
+    "success":true,
+    "chart": [
+        {chartName: '线图',chartValue: '1', selected: true},
+        {chartName: '饼图',chartValue: '2', selected: false},
+	{chartName: '柱状图',chartValue: '3', selected: false}
+    ] 
+}

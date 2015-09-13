@@ -1,0 +1,14 @@
+﻿{
+    listroot:[
+		{id:'0', text : '测试页面',menuUrl:'DynamicChart',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'1', text : '营养筛查',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'2', text : '营养评估',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'3', text : '营养诊断',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'4', text : '营养医嘱',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'5', text : '实验室数据比较',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'6', text : 'Panel样式测试',menuUrl:'panel.PanelBorderColor',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

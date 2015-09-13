@@ -1,0 +1,15 @@
+﻿{
+    listroot:[
+        {menuid:'5_0', text : '报表',menuUrl:'',icon:'wisi/resource/images/main/reportcenterReport.png',leaf:false,expanded:true,listroot:[
+			{menuid:'5_1', text : '机房内设备',menuUrl:'reportcenter.MachineRoomReport',icon:'wisi/resource/images/main/systemMachineRoomMan.png',leaf:true},
+			{menuid:'5_2', text : '库房',menuUrl:'reportcenter.StoreHouseReport',icon:'wisi/resource/images/main/inventoryLocationInfo.png',leaf:true}
+		]},
+		{menuid:'6_0', text : '报告',menuUrl:'',icon:'wisi/resource/images/main/reportcenterReport.png',leaf:false,expanded:true,listroot:[
+			{menuid:'6_1', text : '巡检',menuUrl:'reportcenter.InspectionReport',icon:'wisi/resource/images/main/systemBacklog.png',leaf:true},
+			{menuid:'6_2', text : '维护&服务',menuUrl:'reportcenter.RepairsServiceReport',icon:'wisi/resource/images/main/systemBacklog.png',leaf:true}
+		]}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

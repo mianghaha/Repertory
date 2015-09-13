@@ -1,0 +1,29 @@
+﻿{
+	listroot:[
+		{id:'0', text : '用户列表/维护',pageName:'testPage_0',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'1', text : '角色列表/维护',pageName:'testPage_1',menuUrl:'system.Rolemanagement',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'2', text : '权限设置',pageName:'testPage_2',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'3', text : '科室列表/维护',pageName:'testPage_3',menuUrl:'system.Listofdepartments',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'4', text : '日志管理',pageName:'testPage_4',menuUrl:'system.LogManagement',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'5', text : '系统参数配置',pageName:'testPage_5',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'6', text : '网站参数配置',pageName:'testPage_6',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+
+		{id:'7', text : '流程引擎',pageName:'testPage_7',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'8', text : '调查问卷设置',pageName:'testPage_8',menuUrl:'system.UserMg',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'9', text : '基础数据',pageName:'testPage_9',leaf:false,
+			listroot:[
+				{id:'901', text : '食物成分',pageName:'testPage_91',menuUrl:'master.FoodComposition',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+				{id:'902', text : '肿瘤食谱',pageName:'testPage_92',menuUrl:'master.FoodComposition',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},				
+			]
+		},
+    ],
+
+	metaData: {
+        root: 'listroot'
+    }
+}

@@ -1,0 +1,9 @@
+﻿{
+	listroot:[
+		{id:'1', text : '营养配置',menuUrl:'patient.NutrientAllocation',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true},
+		{id:'2', text : '缴退费',menuUrl:'patient.NutritionScreening',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true}
+    ],
+	metaData: {
+        root: 'listroot'
+    }
+}

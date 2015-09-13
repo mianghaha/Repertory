@@ -1,0 +1,35 @@
+﻿{
+	listroot:[		
+			{id:'1', text : '查询',leaf:false,
+				listroot:[
+					{id:'101', text : '搜索引擎',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'102', text : '查询工具',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},				
+				]
+			},
+
+			{id:'2', text : '统计',leaf:false,
+				listroot:[
+					{id:'201', text : '统计工具',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'202', text : '报表1',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'203', text : '报表2',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'204', text : '报表3',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'205', text : '报表4',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'206', text : '报表5',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'207', text : '报表6',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'208', text : '报表7',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'209', text : '报表8',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'210', text : '报表9',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+					{id:'211', text : '报表10',menuUrl:'search.Search',icon:'wisi/resource/images/main/inventoryStatistics.png',leaf:true,},
+
+				]
+			},
+		],
+
+			
+			
+		
+
+	metaData: {
+        root: 'listroot'
+    }
+}

@@ -1,0 +1,11 @@
+{
+	chart:[	
+		{objValue : 10, name : '一月'},
+		{objValue : 40, name : '二月'},
+		{objValue : 20, name : '三月'},
+		{objValue : 50, name : '四月'}
+	],
+	metaData: {
+        root: 'chart'
+    }
+}

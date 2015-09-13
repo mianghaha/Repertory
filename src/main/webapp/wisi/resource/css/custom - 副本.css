@@ -1,0 +1,122 @@
+/**
+ *页面顶部左侧背景（系统Logo和系统名称）
+ */
+.body-frame-top-left-background{
+	background: url(../images/frame/top_background_left.png) no-repeat;
+}
+
+/**
+ *页面顶部中间侧背景（自适应屏幕自动拉伸）
+ */
+.body-frame-top-middle-background{
+	background: url(../images/frame/top_background_middle.png) repeat-x;
+}
+
+/**
+ *页面顶部右侧背景（系统菜单）
+ */
+.body-frame-top-right-background{
+	background: url(../images/frame/top_background_right.png) no-repeat;
+}
+
+/**
+ *页面顶部下侧背景（登录信息）
+ */
+.body-frame-top-bottom-background{
+	background: url(../images/frame/top_background_bottom.png) repeat-x;
+}
+
+/**
+ *页面一级菜单
+ */
+.north-menu-button-default-indexpage-80{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_default_indexpage_80.png) !important;
+}
+.north-menu-button-default-indexpage-102{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_default_indexpage_102.png) !important;
+}
+.north-menu-button-default-icon01-130{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_default_indexpage_130.png) !important;
+}
+
+.north-menu-button-over-indexpage-80{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_over_indexpage_80.png) !important;
+}
+.north-menu-button-over-indexpage-102{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_over_indexpage_102.png) !important;
+}
+.north-menu-button-over-indexpage-130{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_over_indexpage_130.png) !important;
+}
+
+.north-menu-button-select-indexpage-80{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_select_indexpage_80.png) !important;
+}
+.north-menu-button-select-indexpage-102{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_select_indexpage_102.png) !important;
+}
+.north-menu-button-select-indexpage-130{
+    background-image:url(../../resource/images/frame/cnisMenuButton/north_menu_select_indexpage_130.png) !important;
+}
+
+.north-menu-button-over-60{
+    background-image:url(../../resource/images/frame/northButton/over-60.png) !important;
+}
+.north-menu-button-over-80{
+    background-image:url(../../resource/images/frame/northButton/over-80.png) !important;
+}
+.north-menu-button-over-100{
+    background-image:url(../../resource/images/frame/northButton/over-100.png) !important;
+}
+.north-menu-button-press-60{
+    background-image:url(../../resource/images/frame/northButton/press-60.png) !important;
+}
+.north-menu-button-press-80{
+    background-image:url(../../resource/images/frame/northButton/press-80.png) !important;
+}
+.north-menu-button-press-100{
+    background-image:url(../../resource/images/frame/northButton/press-100.png) !important;
+}
+.north-menu-button-select-60{
+    background-image:url(../../resource/images/frame/northButton/select-60.png) !important;
+}
+.north-menu-button-select-80{
+    background-image:url(../../resource/images/frame/northButton/select-80.png) !important;
+}
+.north-menu-button-select-100{
+    background-image:url(../../resource/images/frame/northButton/select-100.png) !important;
+}
+.inner-panel{
+    background-color:#F3F8FC;
+}
+.menu-panel{
+	background-color:#E9F2FC;
+}
+.homepage-menuitem-icon{
+	background-image: url(../images/enable.gif);
+}
+.meun-tree-item-over{
+	background-color:#E9F2FC;
+}
+.grid-actioncolumn-icon{
+	cursor:hand;
+}
+.roleinfo-innertab.x-tab-bar-body{
+    border-width:0 0px 0px;
+}
+.roleinfo-innertab.x-tab-bar-strip{
+    border-width:0 0px 0px;
+}
+.roleinfo-innertab.x-tab-bar-top .x-tab-bar-body {
+  height: 40px;
+  border-width: 0 0 0;
+  padding: 1px 0 3px; 
+}
+ .head-search{
+ background-image:url('../resource/images/common/serverfront.png')!important;
+ height: 40px!imporant;
+ width: 200px!important;
+}
+.custom-column{
+	background-color: #FFFFFF;
+}

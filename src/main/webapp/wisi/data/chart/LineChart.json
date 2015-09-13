@@ -1,0 +1,11 @@
+{
+	chart:[	
+		{objTime:'2010', objValue : 10, objValue1 : 20, objValue2 : 30},
+		{objTime:'2011', objValue : 40, objValue1 : 30, objValue2 : 20},
+		{objTime:'2012', objValue : 20, objValue1 : 20, objValue2 : 40},
+		{objTime:'2013', objValue : 50, objValue1 : 40, objValue2 : 30}
+	],
+	metaData: {
+        root: 'chart'
+    }
+}
